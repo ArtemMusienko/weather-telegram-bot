@@ -10,9 +10,9 @@ from telebot import types
 
 config_dict = get_default_config()
 config_dict['language'] = 'ru'
-owm = OWM('')
+owm = OWM('Ваш ключ API')
 mgr = owm.weather_manager()
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("Ваш ключ API")
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
