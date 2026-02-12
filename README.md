@@ -2,4 +2,6 @@
 
 ## Weather Telegram bot
 
-Этот код содержит простую реализацию **Telegram** бота, который информирует о погоде в городе. В качестве главного инструмента был задействован **OWM**. Для использования этого кода необходимо в самом **Telegram** найти бота **@BotFather** и создать свой *API-ключ* для дальнейшей работы с кодом. Сервис, который предоставляет *API-ключ* для доступа к данным о погоде - **[OpenWeatherMap](https://openweathermap.org/)**.
+[![Read in Russian](https://img.shields.io/badge/Read-in_Russian-green)](README.ru.md)
+
+This code contains a simple implementation of a **Telegram** bot that provides weather information for a city. The main tool used was **OWM**. To use this code, you need to find the **@BotFather** bot in **Telegram** itself and create your own *API key* for further work with the code. The service that provides the *API key* for accessing weather data is **[OpenWeatherMap](https://openweathermap.org/)**.
